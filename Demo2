@@ -1,0 +1,32 @@
+class Emp{
+    private int id;
+    private int sal;
+
+    public int getId() {
+        return id;
+    }
+
+    public int getSal() {
+        return sal;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+        System.out.println(id);
+    }
+
+    public void setSal(int sal) {
+        this.sal = sal;
+        System.out.println(sal);
+    }
+}
+
+public class Demo2{
+    public static void main(String[] args) {
+        Emp obj1=new Emp();
+        obj1.getId();
+        obj1.getSal();
+        obj1.setId(67);
+        obj1.setSal(23000);
+    }
+}
